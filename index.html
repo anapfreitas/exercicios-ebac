@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário HTML</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Digite valores no campo abaixo</h1>
+        <form id="form-valores">
+            <input type="number" id="campo-a" required placeholder="Digite o valor do campo A"/>
+            <input type="number" id="campo-b" required placeholder="Digite o valor do campo B"/>
+            <p class="error-message">O valor do campo B deve ser maior que o campo A.</p>
+            <button id="btn-formulario" type="submit">Enviar</button>
+        </form>
+        <p class="success-message"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
